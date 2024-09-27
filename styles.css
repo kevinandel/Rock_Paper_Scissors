@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(91, 73, 111);
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(228, 208, 255);
+}
+
+.game-description {
+  color: rgb(255, 228, 193);
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color:rgba(76, 51, 86, 0.676);
+  border:none;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgb(211, 154, 228); 
+}
+
+.move-button:hover {
+  background-color:rgba(116, 78, 133, 0.811);
+}
+
+.move-button:active {
+  background-color:rgba(140, 105, 158, 0.811);
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(251, 236, 77);
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  color: rgb(38, 1, 42);
+  background-color: rgba(235, 214, 255, 0.89);
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(188, 119, 175);
+}
+
+.reset-score-button {
+  margin-right: 8px;
+}
+
+.reset-score-button:hover,
+.auto-play-button:hover {
+  background-color: rgba(212, 167, 255, 0.89);
+}
+
+
+.reset-score-button:active,
+.auto-play-button:active {
+  background-color: rgba(191, 122, 255, 0.89);
+}
